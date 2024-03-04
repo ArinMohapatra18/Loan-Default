@@ -1,0 +1,4 @@
+Please find the link to the dataset attached here. https://www.kaggle.com/datasets/yasserh/loan-default-dataset
+The code imports the data from the kaggle dataset and the data is cleaned to remove columns which have no subsequent impact on the model and it also fills na values.
+Correlation plots are constructed to determine variables which have highest correlation in predicting loan defaulters
+The code then employs several data classification models such as XGBoost,RandomForestClassifier and Naive Bayes  to predict loan defaulters to an accuracy beyond 95 percent.
